@@ -26,7 +26,7 @@ function sendMessage() {
         addMessage('user', message);
         input.value = '';
         
-        fetch('mai-deploy-4vt5bq08i-sashank-pappus-projects.vercel.app/life_chat', {
+        fetch('https://mai-deploy-atkjxl9yk-sashank-pappus-projects.vercel.app/life_chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
